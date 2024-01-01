@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50; /* Dark background color */
+    color: black; /* Text color */
+  }
+  
+  header, main, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background-color:lightseagreen; /* Header background color */
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .calculator {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #34495e; /* Border color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #2c3e50; /* Calculator background color */
+    border-color: white;
+  }
+  
+  #display {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid #34495e; /* Border color */
+    border-radius: 14px;
+    background-color: #34495e; /* Display background color */
+    color: white; /* Text color */
+    border-color: white;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 14px;
+    background-color:yellow; /* Numeric button background color */
+    color: black; /* Text color */
+  }
+  
+  button:active {
+    background-color: green;
+  }
+  
+  .operator {
+    background-color: orangered; /* Operator button background color */
+  }
+  
+  .equal {
+    background-color: #27ae60; /* Equal button background color */
+  }
+  
+  footer {
+    background-color: #34495e; /* Footer background color */
+    text-align: center;
+    padding: 10px;
+  }
+  
